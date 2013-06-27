@@ -1,7 +1,7 @@
 Type: Blog Post (Markdown)
 Blog: blog.4aiur.net
 Link: http://blog.4aiur.net/2010/03/distribute-ssh-key-using-expect/
-Post: 33
+Post: 752
 Title: 使用expect配合ssh的key认证实现多台服务器的自动化处理
 Slug: distribute-ssh-key-using-expect
 Postformat: standard
