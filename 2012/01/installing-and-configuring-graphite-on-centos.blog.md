@@ -23,6 +23,13 @@ sudo rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noa
 sudo yum -y update # This takes quite a while for a fresh install
 </pre>
 
+Alternatively:
+
+<pre lang="bash">
+wget -r -l1 --no-parent -A "epel*.rpm" http://dl.fedoraproject.org/pub/epel/6/x86_64/
+sudo yum -y --nogpgcheck localinstall */pub/epel/6/x86_64_/epel-*.rpm
+</pre>
+
 Install Dependences
 -------------------
 
