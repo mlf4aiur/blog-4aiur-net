@@ -27,7 +27,7 @@ Alternatively:
 
 <pre lang="bash">
 wget -r -l1 --no-parent -A "epel*.rpm" http://dl.fedoraproject.org/pub/epel/6/x86_64/
-sudo yum -y --nogpgcheck localinstall */pub/epel/6/x86_64_/epel-*.rpm
+sudo yum -y --nogpgcheck localinstall */pub/epel/6/x86_64/epel-*.rpm
 </pre>
 
 Install Dependences
