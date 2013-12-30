@@ -19,7 +19,7 @@ ipmitoool可以方便的查看设备硬件状态，建议设备在安装好系�
 安装方法：
 
 安装程序包
-<pre lang="bash">yum -y install OpenIPMI.x86_64 OpenIPMI-tools.x86_64 OpenIPMI-libs.x86_64</pre>
+<pre lang="bash">yum -y install OpenIPMI.x86_64 OpenIPMI-tools.x86_64 OpenIPMI-libs.x86_64 ipmitool.x86_64</pre>
 添加ipmi module
 <pre lang="bash">modprobe ipmi_si 
 modprobe ipmi_devintf
