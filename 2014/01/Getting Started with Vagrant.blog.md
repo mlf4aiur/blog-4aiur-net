@@ -177,9 +177,27 @@ rebuild them for the new kernel through the `vboxadd initscript`, like so:
 Solution:  
 Attach VBoxGuestAdditions.iso in VirtualBox manually.
 
-    sudo mount -t iso9660 -o ro /dev/cdrom /mnt/
-    sudo sh /mnt/VBoxLinuxAdditions.run
+**For Ubuntu should run next commands:**
+
+    sudo apt-get update -q
+    sudo apt-get install -q -y dkms
+    # Install linux-headers
+    sudo apt-get install -q -y linux-headers-3.2.0-23-generic
+    sudo mount -o loop,ro /dev/sr0 /mnt
+
+**For CentOS just need to run next command:**
+
+    sudo mount -t iso9660 -o loop,ro /dev/cdrom /mnt/
+
+**Upgrade VirtualBox Guest Additions:**
+
+    sudo sh /mnt/VBoxLinuxAdditions.run --nox11
+    exit
     vagrant reload
+
+**Fix Vagrant Box Hanging at Boot(grub menu)**
+
+Use VirtualBox to boot this VM, and run command: `sudo update-grub`
 
 Related links:
 --------------
