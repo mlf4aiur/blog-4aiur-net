@@ -39,14 +39,18 @@ Install Ansible on a isolation environment.
 Setup `autoenv` for load `ansible` environment automatically. 
 
     git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
-    echo "source ~/Ansible/active_ansible" > .env
-    cat > active_ansible <<\EOF
+    echo "source ~/.autoenv/activate.sh" >> ~/.bash_profile
+    source ~/.autoenv/activate.sh
+    cat > ~/Ansible/.active_ansible <<\EOF
     source ~/Ansible/.venv/bin/activate  # Activeate virtualenv
     source ~/.ssh/.agent.env  # Load ssh-agent env
+    # or use private key file
+    # export ANSIBLE_PRIVATE_KEY_FILE=~/.ssh/id_rsa
     export ANSIBLE_HOSTS=~/Ansible/inventory
     export ANSIBLE_HOST_KEY_CHECKING=False  # Set ansible config
     export ANSIBLE_FORKS=20  # Specify ansible parallel processes
     EOF
+    echo "source ~/Ansible/.active_ansible" > .env
 
 Usage examples
 --------------
