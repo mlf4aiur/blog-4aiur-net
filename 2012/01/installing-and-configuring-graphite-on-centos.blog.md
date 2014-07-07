@@ -212,11 +212,11 @@ Some wonderful Graphite dashboards
 ----------------------------------
 
 * <https://github.com/torkelo/grafana>
-* <http://square.github.com/cubism/>
-* <https://github.com/obfuscurity/descartes>
+* <https://github.com/urbanairship/tessera>
 * <https://github.com/ripienaar/gdash>
-* <http://kenhub.github.com/giraffe>
 * <https://github.com/Dieterbe/graph-explorer>
-* <http://jondot.github.com/graphene/>
-* <https://github.com/paperlesspost/graphiti>
+* <https://github.com/obfuscurity/descartes>
 * <https://github.com/obfuscurity/tasseo>
+* <http://kenhub.github.com/giraffe>
+* <http://jondot.github.com/graphene/>
+* <http://square.github.com/cubism/>
