@@ -211,7 +211,7 @@ rm your_data.wsp
 Some wonderful Graphite dashboards
 ----------------------------------
 
-* <https://github.com/torkelo/grafana>
+* <http://grafana.org/>
 * <https://github.com/urbanairship/tessera>
 * <https://github.com/ripienaar/gdash>
 * <https://github.com/Dieterbe/graph-explorer>
