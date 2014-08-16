@@ -139,6 +139,23 @@ Troubleshooting
     vagrant up
     VAGRANT_LOG=debug vagrant provision
 
+**Insecure world writable dir /Applications in PATH, mode 040777**
+
+    Vagrant::Errors::VMBootBadState: The guest machine entered an invalid state while waiting for it
+    to boot. Valid states are 'starting, running'. The machine is in the
+    'poweroff' state. Please verify everything is configured
+    properly and try again.
+    
+    If the provider you're using has a GUI that comes with it,
+    it is often helpful to open that and watch the machine, since the
+    GUI often has more helpful error messages than Vagrant can retrieve.
+    For example, if you're using VirtualBox, run `vagrant up` while the
+    VirtualBox GUI is open.
+
+Run this to fix it:
+
+    sudo chmod 755 /Applications/
+
 **Mount error on v-root: /vagrant**
 
 When you start up your guest, you may get the following message unexpectedly:
@@ -175,7 +192,7 @@ rebuild them for the new kernel through the `vboxadd initscript`, like so:
     VirtualBox Version: 4.3
 
 Solution:  
-Attach VBoxGuestAdditions.iso in VirtualBox manually.
+Attach VBoxGuestAdditions.iso(can be found /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso) in VirtualBox manually.
 
 **For Ubuntu should run next commands:**
 
