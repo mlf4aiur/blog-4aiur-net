@@ -1,7 +1,7 @@
 Type: Blog Post (Markdown)
 Blog: blog.4aiur.net
 Link: http://blog.4aiur.net/2010/06/run-remote-complex-command-without-backslash-over-ssh/
-Post: 173
+Post: 890
 Title: 不需要反引号的运行ssh复杂远程命令方式
 Slug: run-remote-complex-command-without-backslash-over-ssh
 Postformat: standard
@@ -48,8 +48,23 @@ localhost
 ok
 [root@localhost ~]#</pre>
 
+直接把script嵌入到脚本中
+
+<pre lang="bash">[root@localhost ~]# ssh 127.0.0.1 -l root "$(cat <<EOF
+hostname
+if [ -d /root/ ];then
+  echo ok
+else
+  echo not ok
+fi
+EOF
+)"
+localhost
+ok
+[root@localhost ~]#</pre>
+
 来源：
-http://www.commandlinefu.com/commands/view/5772/run-complex-remote-shell-cmds-over-ssh-without-escaping-quotes
+<http://www.commandlinefu.com/commands/view/5772/run-complex-remote-shell-cmds-over-ssh-without-escaping-quotes>
 
 <pre lang="bash">ssh host -l user $(<cmd.txt)</pre>
 run complex remote shell cmds over ssh, without escaping quotes
