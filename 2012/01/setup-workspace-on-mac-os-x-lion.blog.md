@@ -54,7 +54,7 @@ Install [DictUnifier](http://code.google.com/p/mac-dictionary-kit/downloads/list
 Now setup Dictionary Preferences, change the dicionary order.
 * iSTAT NANO  
 An advanced system monitor in a tiny package. iStat nano is a stunning system monitor widget with beautifly animated menus and transitions.  
-[Download Page](http://www.apple.com/downloads/dashboard/status/istatnano.html)  
+[Download Page](http://istat-nano.soft32.com/free-download/)  
 * To Do  
 A lightweight and fast widget to manage tasks. Thanks to Mac OS X Leopard it integrates with iCal and Mail. The big advantage: to manage your tasks you don’t have to leave these applications open.  
 [Download Page](http://www.apple.com/downloads/dashboard/email_messaging/todo.html)  
@@ -76,10 +76,9 @@ Advanced --> "Never use font sizes smaller than: 12"
 3. Mail  
 Add new account, and add yourself rules in Mail's Preferences.
 4. sudoers  
-`$ sudo vi visudo`  
+`$ sudo visudo`  
 `# Uncomment to allow people in group wheel to run all commands`  
-`%wheel    ALL=(ALL) ALL`
-5. 
+`%wheel    ALL=(ALL) ALL` 
 
 ### Install Software
 * App Store
@@ -117,7 +116,7 @@ GitHub is the best way to collaborate with others. Fork, send pull requests and 
 [Download page](http://mac.github.com/)
 * iTerm2  
 iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with Leopard, Snow Leopard, or Lion. Its focus is on performance, internationalization, and supporting innovative features that make your life better.  
-[Download page](http://code.google.com/p/iterm2/downloads/list)  
+[Download page](http://iterm2.com)  
 * MPlayer OSX Extended  
 MPlayer OSX Extended is the future of MPlayer OSX. Leveraging the power of the MPlayer and FFmpeg open source projects, MPlayer OSX Extended aims to deliver a powerful, functional and no frills video player for OSX.  
 [Download page](http://www.mplayerosx.ch/#downloads)
@@ -131,7 +130,7 @@ TextMate brings Apple's approach to operating systems into the world of text edi
 [WebSite](http://macromates.com/)
 * Sublime Text 2  
 Sublime Text is a sophisticated text editor for code, html and prose. You'll love the slick user interface and extraordinary features.  
-[WebSite](http://macromates.com/)
+[WebSite](http://sublimetext.com)
 * Skype  
 [WebSite](http://www.skype.com/)
 * Chicken of the VNC  
