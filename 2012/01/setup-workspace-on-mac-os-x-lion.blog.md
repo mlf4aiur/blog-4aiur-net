@@ -20,65 +20,65 @@ Click Apple () menu, choose **Software Update**
 ### Change System Preferences
 Click Apple () menu, choose **System Preferences**
 
-1. Trackpad  
-Tap to click  
+1. Trackpad
+Tap to click
 Scroll direction: natural
-2. Mouse  
+2. Mouse
 Adjust Tracking Speed to max
-3. Keyboard  
-Keyboard Shortcuts  
+3. Keyboard
+Keyboard Shortcuts
 Full Keyboard Access: In windows and dialogs, press Tab to move keybiard focus between: --> select "All controls"
-3. Dock  
-Magnification  
-Change Size and Magnification  
+3. Dock
+Magnification
+Change Size and Magnification
 Automatically hide and show the Dock
-4. Mission Control  
-Show Dashboard as a space  
+4. Mission Control
+Show Dashboard as a space
 Change Show Dashboard shortcut to F4
-5. Language & Text  
-Input Sources --> Chinese - Simplified --> Pinyin - Simplified  
+5. Language & Text
+Input Sources --> Chinese - Simplified --> Pinyin - Simplified
 Change Input source shortcuts to ^Space
-6. Sound  
+6. Sound
 Remove "Show volume in menu bar"
-7. Security & Privacy  
+7. Security & Privacy
 Choose "Disable restarting to Safari when screen is locked"
-8. Sharing  
+8. Sharing
 Change your "Computer Name"
-9. Time Machine  
+9. Time Machine
 Remove "Show Time Machine status in menu bar"
 
 ### Dashboard Widgets
-* Dictionary  
-For Chinese:  
-Install [DictUnifier](http://code.google.com/p/mac-dictionary-kit/downloads/list), and import dictionary: stardict-langdao-ec-gb-2.4.2.tar.gz, and drag "stardict-langdao-ec-gb-2.4.2.tar.bz2" into DictUnifier.  
+* Dictionary
+For Chinese:
+Install [DictUnifier](http://code.google.com/p/mac-dictionary-kit/downloads/list) `brew cask install dictunifier`, and import dictionary: stardict-langdao-ec-gb-2.4.2.tar.gz, and drag "stardict-langdao-ec-gb-2.4.2.tar.bz2" into DictUnifier.
 Now setup Dictionary Preferences, change the dicionary order.
-* iSTAT NANO  
-An advanced system monitor in a tiny package. iStat nano is a stunning system monitor widget with beautifly animated menus and transitions.  
-[Download Page](http://istat-nano.soft32.com/free-download/)  
-* To Do  
-A lightweight and fast widget to manage tasks. Thanks to Mac OS X Leopard it integrates with iCal and Mail. The big advantage: to manage your tasks you don’t have to leave these applications open.  
-[Download Page](http://www.apple.com/downloads/dashboard/email_messaging/todo.html)  
+* iSTAT NANO
+An advanced system monitor in a tiny package. iStat nano is a stunning system monitor widget with beautifly animated menus and transitions.
+[Download Page](http://istat-nano.soft32.com/free-download/)
+* To Do
+A lightweight and fast widget to manage tasks. Thanks to Mac OS X Leopard it integrates with iCal and Mail. The big advantage: to manage your tasks you don’t have to leave these applications open.
+[Download Page](http://www.apple.com/downloads/dashboard/email_messaging/todo.html)
 
 ### Adjust System
-1. Finder  
-View --> Show Path Bar, Show Status Bar  
-Press "CMD + ," setup Finder Preferences.  
-General --> "New Finder windows show:" --> User's Home Directory  
-Sidebar --> Add your home dir, and remove "All My Files", "Music", "Pictures", "Hard disks"...  
+1. Finder
+View --> Show Path Bar, Show Status Bar
+Press "CMD + ," setup Finder Preferences.
+General --> "New Finder windows show:" --> User's Home Directory
+Sidebar --> Add your home dir, and remove "All My Files", "Music", "Pictures", "Hard disks"...
 Advanced --> unselect "Empty Trash securely", When performing a search --> Search the Current Folder
-2. Safari  
-Goto [YouTuBe](http://www.youtube.com/), Click "Download Adobe Flash Player from Adobe", and install it.  
-View --> Show Path Bar, Show Status Bar  
-Press "CMD + ," setup Finder Preferences.  
-Tabs --> Open pages in tabs instead of windows: Always  
-Extensions --> Get Extensions --> Install "AdBlock", "ClickToFlash"  
+2. Safari
+Goto [YouTuBe](http://www.youtube.com/), Click "Download Adobe Flash Player from Adobe", and install it.
+View --> Show Path Bar, Show Status Bar
+Press "CMD + ," setup Finder Preferences.
+Tabs --> Open pages in tabs instead of windows: Always
+Extensions --> Get Extensions --> Install "AdBlock", "ClickToFlash"
 Advanced --> "Never use font sizes smaller than: 12"
-3. Mail  
+3. Mail
 Add new account, and add yourself rules in Mail's Preferences.
-4. sudoers  
-`$ sudo visudo`  
-`# Uncomment to allow people in group wheel to run all commands`  
-`%wheel    ALL=(ALL) ALL` 
+4. sudoers
+`$ sudo visudo`
+`# Uncomment to allow people in group wheel to run all commands`
+`%wheel    ALL=(ALL) ALL`
 
 ### Install Software
 * App Store
@@ -87,12 +87,12 @@ Add new account, and add yourself rules in Mail's Preferences.
 #### From App Store
 **Sign in**
 
-Using Apple ID sign in, or create new Apple ID.  
+Using Apple ID sign in, or create new Apple ID.
 
 **Install Software**
 
 * Xcode
-* Caffeine  
+* Caffeine
 * Skitch
 * Evernote
 * TextWrangler
@@ -105,39 +105,39 @@ Using Apple ID sign in, or create new Apple ID.
 * 1Password
 
 #### Manually
-* Adium  
-Adium is a free instant messaging application for Mac OS X that can connect to AIM, MSN, Jabber, Yahoo, and more.  
+* Adium
+Adium is a free instant messaging application for Mac OS X that can connect to AIM, MSN, Jabber, Yahoo, and more.
 [WebSite](http://adium.im)
-* AppCleaner  
-AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.  
+* AppCleaner
+AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.
 [WebSite](http://www.freemacsoft.net/)
-* GitHub  
-GitHub is the best way to collaborate with others. Fork, send pull requests and manage all your public and private git repositories.  
+* GitHub
+GitHub is the best way to collaborate with others. Fork, send pull requests and manage all your public and private git repositories.
 [Download page](http://mac.github.com/)
-* iTerm2  
-iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with Leopard, Snow Leopard, or Lion. Its focus is on performance, internationalization, and supporting innovative features that make your life better.  
-[Download page](http://iterm2.com)  
-* MPlayer OSX Extended  
-MPlayer OSX Extended is the future of MPlayer OSX. Leveraging the power of the MPlayer and FFmpeg open source projects, MPlayer OSX Extended aims to deliver a powerful, functional and no frills video player for OSX.  
+* iTerm2
+iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with Leopard, Snow Leopard, or Lion. Its focus is on performance, internationalization, and supporting innovative features that make your life better.
+[Download page](http://iterm2.com)
+* MPlayer OSX Extended
+MPlayer OSX Extended is the future of MPlayer OSX. Leveraging the power of the MPlayer and FFmpeg open source projects, MPlayer OSX Extended aims to deliver a powerful, functional and no frills video player for OSX.
 [Download page](http://www.mplayerosx.ch/#downloads)
-* Sequel Pro  
-Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.  
+* Sequel Pro
+Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
 [Download page](http://www.sequelpro.com/)
-* FireFox  
+* FireFox
 [Download page](http://www.mozilla.org/en-US/products/download.html)
-* TextMate2  
-TextMate brings Apple's approach to operating systems into the world of text editors. By bridging UNIX underpinnings and GUI, TextMate cherry-picks the best of both worlds to the benefit of expert scripters and novice users alike.  
+* TextMate2
+TextMate brings Apple's approach to operating systems into the world of text editors. By bridging UNIX underpinnings and GUI, TextMate cherry-picks the best of both worlds to the benefit of expert scripters and novice users alike.
 [WebSite](http://macromates.com/)
-* Sublime Text 2  
-Sublime Text is a sophisticated text editor for code, html and prose. You'll love the slick user interface and extraordinary features.  
+* Sublime Text 2
+Sublime Text is a sophisticated text editor for code, html and prose. You'll love the slick user interface and extraordinary features.
 [WebSite](http://sublimetext.com)
-* Skype  
+* Skype
 [WebSite](http://www.skype.com/)
-* Chicken of the VNC  
-Chicken of the VNC is a VNC client for Mac OS X. A VNC client allows one to display and interact with a remote computer screen. In other words, you can use Chicken of the VNC to interact with a remote computer as though it's right next to you.  
+* Chicken of the VNC
+Chicken of the VNC is a VNC client for Mac OS X. A VNC client allows one to display and interact with a remote computer screen. In other words, you can use Chicken of the VNC to interact with a remote computer as though it's right next to you.
 [Download page](http://sourceforge.net/projects/cotvnc/)
-* MacPorts  
-The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac OS X operating system.  
+* MacPorts
+The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac OS X operating system.
 [Download page](http://www.macports.org/install.php)
 
 #### Command Line

@@ -1,11 +1,13 @@
 Type: Blog Post (Markdown)
 Blog: blog.4aiur.net
 Link: http://blog.4aiur.net/2015/01/setup-development-environment-on-osx/
+Post: 1004
 Title: Setup development environment on OSX
 Slug: setup-development-environment-on-osx
 Postformat: standard
 Keywords: Docker
 Status: publish
+Date: 2015-01-21 13:02:37 +0800
 Pings: On
 Comments: On
 Category: MacOSX
@@ -35,8 +37,12 @@ Setup development environment on OSX
     cask install sequel-pro
     EOF
 
-    export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
+    export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+    brew update
+    brew doctor
     brew bundle Caskfile
+    brew cask update
+    brew cask doctor
 
 **Initialize virtual machine**
 
